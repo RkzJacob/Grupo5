@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logueate</title>
+    <link rel="stylesheet"  href="css/bootstrap.css">
+    <link rel="shortcut icon" href="img/logo.png">
+</head>
+<header>
+
+<main>
+<body style="background-color: lightsteelblue;">
+    <!-- clase container -->
+    <div class="container-fluid  " style="background-color: indigo;">
+        <!-- primera fila -->
+        <div class="row">
+            <!-- columna 1 -->
+            <div class="col-md-6">
+                <!-- logo de la pagina -->
+                <img src="img/logo.png" width="70" height="60" alt="GroupZero">
+            </div>
+            <!-- segunda columna col two-->
+            <div class="col">
+                <!-- botones para registrarte y loguearte< p1 >-->
+                <ul class="nav nav-pills justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link  badge badge-secondary" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link badge badge-primary text-dark" href="#">Register</a>
+                    </li> 
+                  </ul> 
+                <!--        p1        -->
+            </div>
+            <!-- col two -->
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col badge-warning">
+                <h1>Login</h1>
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <small id="emailHelp" class="form-text text-muted">Escribe tu contraseña</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-2">Loguear</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+  </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+
+            </div>
+        </div>
+    </div>
+  </main>    
+       <!-- FOOTER -->
+  <footer>
+  <div class="container-fluid  fixed-bottom" >
+    <div class="row " style="background-color: gray;" >
+      <div class="col-12 badge-secondary">
+        <h4>Contactos</h4>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active text-light" href="https://www.instagram.com/">Instagram</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" href="#">Quejas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" href="#">Problemas con tu publicacion</a>
+          </li>
+        </ul>  
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+</body>
+</html>
