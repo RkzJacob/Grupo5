@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate</title>
+    <link rel="stylesheet"  href="css/bootstrap.css">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/myStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+</head>
+<body>
+<header>
+    <div class="container-fluid  " style="background-color: indigo;">
+        <!-- primera fila -->
+        <div class="row">
+            <!-- columna 1 -->
+            <div class="col-md-6">
+                <!-- logo de la pagina -->
+                <a href="index2.html"><img src="img/logo.png" width="70" height="60" alt="GroupZero"></a>
+            </div>
+            <!-- segunda columna col two-->
+            <div class="col">
+                <!-- botones para registrarte y loguearte< p1 >-->
+                <ul class="nav nav-pills justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link  badge badge-secondary" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link badge badge-primary text-dark" href="register.html">Register</a>
+                    </li> 
+                  </ul> 
+                <!--        p1        -->
+            </div>
+            <!-- col two -->
+        </div>
+    </div>
+</header>
+
+<section id="FormularioRegistro">
+  <div class="container">
+    <div class="row "> 
+      <div class="col " id="Form1">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input type="email"  class="form-control" id="EscribirEmail" placeholder="dfjkdfj@gmail.com" name="EscribirEmail">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Password</label>
+              <input type="password" class="form-control" id="EscribirContraseña" name="EscribirContraseña" >
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputAddress">Repite Tu e-mail</label>
+              <input type="text" class="form-control" id="RepetirEmail" placeholder="sdjj@gmail.com" name="RepetirEmail">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputAddress2">Confirma tu contraseña</label>
+              <input type="text" class="form-control" id="ConfirmarContraseña" placeholder="Tu contraseña"
+              name="ConfirmarContraseña">
+            </div>
+          </div>
+          <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputAddress">Direccion</label>
+            <input type="text" class="form-control" id="EscribirDireccion1" placeholder="1234 Main St"
+            name="EscribirDireccion1">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputAddress2">Direccion 2 (Opcional)</label>
+            <input type="text" class="form-control" id="EscribirDireccion2" placeholder="Apartment, studio, or floor"
+            name="EscribirDireccion2">
+          </div>
+        </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCiudad">Ciudad</label>
+              <input type="text" class="form-control" id="EscribirCiudad" name="EscribirCiudad">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">Region</label>
+              <select id="ElegirRegion" class="form-control">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Codigo Postal</label>
+              <input type="text" class="form-control" id="EscribirCodigoPostal">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="AceptarTerminos">
+              <label class="form-check-label" for="gridCheck">
+                Acepta los terminos de servicio
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Registrarse</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<footer class="bg-dark text-white " >
+  <div class="container ">
+    <nav class="row  ">
+      <a href="#" class="col-3 text-reset text-uppercase d-flex align-items-center">
+        <img src="img/logo.png" alt="Logo GroupZero" class="img-logo mr-2">
+      </a>
+      <ul class="col-3 list-unstyled">
+        <li class="font-weight-bold text-uppercase">Resource</li>
+        <li><a href="#" class="text-reset">Link1</a></li>
+        <li><a href="#" class="text-reset" >Link2</a></li>
+        <li><a href="#" class="text-reset"></a>Link3</li>
+      </ul>
+      <ul class="col-3 list-unstyled">
+        <li class="font-weight-bold text-uppercase">Redes Sociales</li>
+        <li><a href="#" class="text-reset">Link1</a></li>
+        <li><a href="#" class="text-reset" >Link2</a></li>
+        <li><a href="#" class="text-reset"></a>Link3</li>
+      </ul>
+      <ul class="col-3 list-unstyled">
+        <li class="font-weight-bold text-uppercase">Redes Sociales</li>
+        <li>
+          <a href="#" class="text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-reset" >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+      </ul>
+      <p class="col-12 text-center h6">© All right Reversed.</p> 
+    </nav> 
+      </div>
+</footer>
+    
+
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+ <script src="js/jquery-3.6.0.js"></script>
+ <script src="js/popper.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+
+
+</body>
+</html>
